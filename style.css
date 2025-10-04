@@ -1,0 +1,212 @@
+@font-face {
+    font-family: nothing;
+    src: url(./Ndot-55-DoenNkNm.ttf);
+}
+@font-face {
+    font-family: hey;
+    src: url(./korataki-rg-3cf0d889-B6eTgmP5.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(./Poppins-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.first h2{
+    position: absolute;
+    left: 5%;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: nothing;
+}
+input{
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+    left: 28%;
+    background-color: transparent;
+    border: none;
+    
+}
+#g5{
+    height: 100px;
+    width: 300px;
+}
+#g4{
+    height: 70px;
+    width: 290px;
+}
+.second{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+#store{
+    position: absolute;
+    left: 12%;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: regular;
+    text-align: center;
+}
+#support{
+    position: absolute;
+    left: 44%;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: regular;
+    text-align: center;
+}
+#Community{
+    position: absolute;
+    right: 10%;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: regular;
+    text-align: center;
+}
+.contaner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ft{
+    width: 150px;
+    position: absolute;
+    top: 19.2%;
+    left: 16.2%;
+    border-top: 2px solid white;
+    transform: rotate(45deg);
+}
+.sd{
+    width: 200px;
+    position: absolute;
+    top: 25.6%;
+    left: 24.5%;
+    border-top: 2px solid white;
+    
+}
+.th{
+    width: 120px;
+    position: absolute;
+    top: 29.6%;
+    left: 36.9%;
+    border-top: 2px solid white;
+    transform: rotate(35deg);
+}
+.fr{
+    width: 55%;
+    position: absolute;
+    top: 33.9%;
+    left: 44%;
+    border-top: 2px solid white;
+    
+}
+.fi{
+    width: 230px;
+    position: absolute;
+    top: 33.8%;
+    left: 30%;
+    border-top: 2px solid white;
+    transform: rotate(35deg);
+}
+.sx{
+    width: 200px;
+    position: absolute;
+    top: 41.8%;
+    left: 43.7%;
+    border-top: 2px solid white;
+    
+}
+.sn{
+     width: 50px;
+    position: absolute;
+    top: 42%;
+    right: 30%;
+    border-top: 2px solid white;
+    transform: rotate(130deg);
+}
+.et{
+     width: 30.7%;
+    position: absolute;
+    top: 39.8%;
+    right: 0;
+    border-top: 2px solid white;
+    
+}
+.ne{
+    width: 45%;
+    position: absolute;
+    bottom: 25.8%;
+    border-top: 2px solid white;
+}
+.tn{
+    width: 70px;
+    position: absolute;
+    bottom: 28%;
+    left: 44.7%;
+    border-top: 2px solid white;
+    transform: rotate(150deg);
+}
+.ll{
+    width: 51%;
+    position: absolute;
+    right: 0;
+    bottom: 29.9%;
+    border-top: 2px solid white;
+}
+.contaner2{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: hey;
+}
+.hero{
+    height: 50%;
+    padding: 20px;
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.hero h4{
+    position: absolute;
+    bottom: 0;
+    font-family: nothing;
+}
+.phone img{
+    height: 50vh;
+}
+#black{
+    position: absolute;
+    right: 35%;
+    top: 30%;
+    transform: rotate(-30deg);
+}
+#white{
+    position: absolute;
+    right: 28%;
+    top: 35%;
+    transform: rotate(-30deg);
+}
