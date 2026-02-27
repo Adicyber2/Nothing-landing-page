@@ -197,16 +197,20 @@ input{
 }
 .phone img{
     height: 50vh;
+   transform: scale(0.95);
+   transition: all  3s ease-in-out;
 }
 #black{
     position: absolute;
     right: 35%;
     top: 30%;
     transform: rotate(-30deg);
+    
 }
 #white{
     position: absolute;
     right: 28%;
     top: 35%;
-    transform: rotate(-30deg);
+    transform: rotate(30deg);
+    transition: all 2s;
 }
